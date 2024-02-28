@@ -11,7 +11,8 @@ array = []
 for i in range(n):
     row = []
     for j in range(m):
-        value = float(input(f"Enter value for row {i+1}, column {j+1}: "))
+        value = int(input())
         row.append(value)
     array.append(row)
+    
 
